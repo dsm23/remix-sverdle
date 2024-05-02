@@ -1,0 +1,48 @@
+.span {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4em;
+  height: 2.4em;
+  border-width: 2px;
+  border-radius: 2px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.8em;
+}
+
+.missing {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  border-style: solid;
+  border-color: var(--color-theme-2);
+}
+
+.exact {
+  background: var(--color-theme-2);
+  color: white;
+}
+
+.example {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  gap: 0.2rem;
+}
+
+.example span {
+  font-size: 1.4rem;
+}
+
+.highlight {
+  position: relative;
+  margin: 0 1em;
+  transform: scale(2) translate(0, -10%);
+  border-width: 1px;
+  border-radius: 1px;
+  font-size: 0.4em;
+}

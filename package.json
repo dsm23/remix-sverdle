@@ -13,9 +13,11 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@fontsource/fira-mono": "^5.0.13",
     "@remix-run/node": "^2.9.1",
     "@remix-run/react": "^2.9.1",
     "@remix-run/serve": "^2.9.1",
+    "clsx": "^2.1.1",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
