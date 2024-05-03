@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 import Footer from "~/components/footer";
 import Header from "~/components/header";
+import Main from "~/components/main";
 
 import "./styles.css";
 
@@ -32,7 +33,9 @@ export default function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <Main>
+        <Outlet />
+      </Main>
       <Footer />
     </>
   );
