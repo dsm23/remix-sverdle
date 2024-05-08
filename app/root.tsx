@@ -8,6 +8,7 @@ import {
 import Footer from "~/components/footer";
 import Header from "~/components/header";
 import Main from "~/components/main";
+import Wrapper from "./components/wrapper";
 
 import "./styles.css";
 
@@ -31,12 +32,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <>
+    <Wrapper>
       <Header />
       <Main>
         <Outlet />
       </Main>
       <Footer />
-    </>
+    </Wrapper>
   );
 }
